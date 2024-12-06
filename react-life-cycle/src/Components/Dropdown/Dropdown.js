@@ -68,7 +68,7 @@ const Dropdown = () => {
                         const { name, image, price } = productss;
                         return (
                             <>
-                                <div className="col-4 mt-3">
+                                <div className="col-12 col-sm-6 col-m-4 col-lg-4 mt-3">
                                     <div className="card m-5">
                                         <div className="container d-flex justify-content-center">
                                             <img src={image} alt={name} />
